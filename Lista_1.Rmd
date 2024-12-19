@@ -1,0 +1,64 @@
+```{r}
+# Atividade 1 - CONCLUÍDA
+
+Ana = 8
+Paulo = 12
+
+ifelse(Ana < Paulo, "Ana é mais velha", "Paulo é mais velho")
+```
+
+```{r}
+# Atividade 2 - CONCLUÍDA
+
+BOD
+class(BOD)
+```
+
+```{r}
+# Atividade 3 - CONCLUÍDA
+
+x = c(1,2,3,4,5,6,7,8,9,10)
+x
+
+for (i in x){
+  if(i%%2==0){
+    print(i)
+  }
+}
+```
+
+```{r}
+# Atividade 4 - CONCLUÍDA
+
+women
+tail(women, n=10)
+```
+
+```{r}
+# Atividade 5 - CONCLUÍDA (Corrigida)
+
+# plot(tail(iris$Sepal.Length, n=50), tail(iris$Sepal.Width, n=50))
+novairis = iris[50:100,c(2,3)]
+plot(novairis)
+```
+
+```{r}
+# Atividade 6 - CONCLUÍDO
+
+x = c(1,2,3,4,5)
+y = c(6,7,8,9,10)
+
+for (i in 1:5){
+  z[i] = x[i]+y[i]
+}
+z
+```
+
+```{r}
+CO2
+cat("Número de linhas: ",nrow(CO2),"\n")
+cat("Número de colunas: ",ncol(CO2), "\n")
+cat("Nome das linhas: ", rownames(CO2), "\n")
+cat("Nome das colunas: ", colnames(CO2), "\n")
+```
+
